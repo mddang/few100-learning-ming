@@ -91,7 +91,7 @@ describe('array literals', () => {
         // expect(empty[3][2]).toBe('tacos');
 
         const friends: string[] = [];
-        const workFriends: Array<string>;
+        // const workFriends: Array<string>;
 
         friends[0] = 'Zosia';
         expect(friends[3]).toBeUndefined();
@@ -99,7 +99,7 @@ describe('array literals', () => {
     });
 
     it('type unions on arrays', () => {
-        const v1: (string | number)[];
+        // const v1: (string | number)[];
         const v2: Array<string | number> = [];
 
         v2[0] = 'dog';
@@ -112,7 +112,7 @@ describe('array literals', () => {
 });
 
 describe('tuples', () => {
-    const v1: (string | number)[];
+    // const v1: (string | number)[];
     const v2: Array<string | number> = [];
 
     v2[0] = 'dog';
